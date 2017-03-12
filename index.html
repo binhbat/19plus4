@@ -1,0 +1,11 @@
+---
+layout: page
+title: Phim 19plus
+---
+{% include pagination_up %}
+<div class="text-center">
+{% for p in paginator.posts %}
+  {% include image %}
+{% endfor %}
+</div>
+{% include pagination_up %}
